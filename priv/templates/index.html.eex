@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%= EEx.eval_file(Application.app_dir(:place_smokey, "priv/templates/_partials/head.html.eex")) %>
+  <body>
+    <main class="l-main l-container">
+      <div class="l-block l-block--content">
+        <h1 class="c-title">placesmokey</h1>
+        <p class="c-introduction">
+          <strong>
+            A quick and simple service for getting pictures of Smokey bear for use as placeholders in your designs or code.
+          </strong>
+          Just put your image size (width & height) after our URL and you'll get a placeholder.
+        </p>
+        <p class="c-code">
+          Like this: <a href="https://placesmokey.com/200/300">https://placesmokey.com/200/300</a> <br />
+          or: <a href="https://placesmokey.com/g/200/300">https://placesmokey.com/g/200/300</a>
+        </p>
+      </div>
+      <div class="l-block l-block--first-gallery">
+        <img src="/450/150" alt="Smokey image placeholder" />
+        <img src="/451/151" alt="Smokey image placeholder" />
+        <img src="/452/152" alt="Smokey image placeholder" />
+      </div>
+      <div class="l-block l-block--second-gallery">
+        <img src="/453/300" alt="Smokey image placeholder" />
+        <img src="/454/153" alt="Smokey image placeholder" />
+        <img src="/455/154" alt="Smokey image placeholder" />
+      </div>
+      <div class="l-block">
+        <img src="/456/301" alt="Smokey image placeholder" />
+      </div>
+    </main>
+    <footer class="l-footer l-container">
+      <p class="c-notes">
+        Delivered by <a href="https://github.com/tonours">Tonours</a> — Inspired by <a href="https://placekitten.com">placekitten.com</a>
+      </p>
+    </footer>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-155853218-1', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
+</html>
