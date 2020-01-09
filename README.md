@@ -1,6 +1,6 @@
 # PlaceSmokey
 
-[placesmokey](https://placesmokey.com) is a [[lacekitten](https://placekitten.com/) clone but with only [Smokey Bear](https://en.wikipedia.org/wiki/Smokey_Bear) images.
+[placesmokey](https://placesmokey.com) is a [placekitten](https://placekitten.com/) clone but with only [Smokey Bear](https://en.wikipedia.org/wiki/Smokey_Bear) images.
 
 Anyway, this project is a just a pretext to go deep dive into [Elixir](https://elixir-lang.org/).
 
