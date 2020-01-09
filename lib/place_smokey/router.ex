@@ -17,7 +17,11 @@ defmodule PlaceSmokey.Router do
 
   get "/g/:width/*height" do
     case Image.get(%{width: width, height: List.first(height)}, true) do
-      {:ok, image } -> send_file(conn, 200, image.path)
+      {:ok, image } ->
+        conn
+          |> put_resp_content_type("image/jpeg")
+          |> put_resp_header("content-disposition", "filename=smokey#{image.ext}")
+          |> send_file(200, image.path)
     end
   end
 

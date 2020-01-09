@@ -6,7 +6,6 @@
   <link href="/css/main.css" rel="stylesheet">
   <title>{placesmokey} - Placeholder Smokey the bear images for developers</title>
 
-  <link rel="icon" href="https://placebear.com/favicon.png" type="image/png">
   <meta property="og:site_name" content="placesmokey">
   <meta property="og:title" content="placesmokey">
   <meta property="og:description" content="Smokey bear placeholder images for developers">
