@@ -26,13 +26,14 @@ img {
 }
 
 .l-container {
+  width: 100%;
   max-width: 824px;
   margin: 0 auto;
 }
 
 .l-main {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 100%;
   grid-template-rows: auto;
   margin: 20px auto 0 auto;
   padding: 0 10px;
@@ -51,7 +52,7 @@ img {
 
 .c-title {
   line-height: 1;
-  font-size: 64px;
+  font-size: 52px;
   font-weight: normal;
   font-style: normal;
   font-family: Baskerville, Palatino, "Book Antiqua", serif;
@@ -143,5 +144,9 @@ img {
 
   .l-block--second-gallery img:nth-child(3) {
     grid-area: c;
+  }
+
+  .c-title {
+    font-size: 64px;
   }
 }
