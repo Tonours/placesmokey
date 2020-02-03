@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
   <link href="/css/main.css" rel="stylesheet">
-  <title>{placesmokey} - Placeholder Smokey the bear images for developers</title>
+  <title>{placesmokey} - Placesmokey is a placeholder Smokey the bear images for developers</title>
 
   <meta property="og:site_name" content="placesmokey">
   <meta property="og:title" content="placesmokey">
